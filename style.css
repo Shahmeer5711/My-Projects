@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+}
+body {
+   
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.top-most {
+    height: 7vh;
+    position: sticky;
+    display: flex;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    z-index: 5;
+}
+.inside-topmost {
+    display: flex;
+    width: 75%;
+    padding-left: 100px;
+    justify-content: flex-start;
+}
+.inside-topmost a{
+    color: rgb(54, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.inside-topmost a:hover {
+    text-decoration: underline;
+}
+nav {
+
+    position: sticky;
+    top: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(246, 246, 246, 0.8);
+    justify-content: space-around;
+    -webkit-baackdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
+    height: 7vh;
+    z-index: 3;
+}
+
+nav ul{
+    width: 75%;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+nav li .apple-logo {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.all-pages {
+    display: flex;
+    align-content: center;
+    margin-top: 5px;
+    align-content: baseline;
+    justify-content: space-around;
+    flex-basis: 80%;
+}
+.center-text-nav {
+    display: block;
+    text-align: center;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.center-text-nav {
+    margin-top: 1vh;
+}
+.center-text-nav a{
+    color: rgb(46, 46, 203);
+}
+.img-div {
+    display: block;
+    padding-top: 50px;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 2vh;
+}
+.first-img {
+    display: block;
+    margin: auto;
+    height: 44vh;
+    width: 70%;
+}
+
+.iphone-heading {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.sec-heading {
+    font-weight: lighter;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.links-first {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#2997ff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.sec-img-div {
+    display: block;
+    margin-top: 1%;
+    padding-top: 2vh;
+    background-color: rgb(246, 246, 246);
+    justify-content: center;
+    height: 83vh;
+}
+
+.sec-img {
+    mix-blend-mode: multiply;
+    display: block;
+    margin  : auto;
+    margin-top: 3vh;
+    width: 50%;
+    height: 45vh;
+}
+.iphone-heading-two {
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    color: black;
+}
+.sec-heading-two {
+    font-weight: lighter;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: black;
+}
+.third-img-div {
+    display: block;
+    margin-top: 1%;
+    padding-top: 6vh;
+    background-color: rgb(246, 246, 246);
+    justify-content: center;
+    height: 86vh;
+}
+.third-img {
+    display: block;
+    margin:auto;
+    mix-blend-mode: multiply;
+    
+}
+.third-heading-two {
+    font-weight: lighter;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: black;
+}
+.links-first-third {
+    margin-bottom: 100px;
+    margin-left: 10px;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#2997ff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.fourth-div {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   height: 86vh;
+   width: 100%;
+
+}
+.fourth-first-div {
+
+    width: 49%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+}
+.fourth-first-div img{
+    display: block;
+    width: 70%;
+    height: 65%;
+    margin: auto;
+}
+.fourth-sec-div {
+    display: flex;
+    position: relative;
+    width: 49%;
+    justify-content: center;
+}
+.fourth-sec-div img{
+    position: relative;
+    display: block;
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.iphone-heading-two-fourth {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    color: black;
+}
+.fourth-heading-two {
+    font-weight: lighter;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: black;
+}
+.links-first-fourth {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#2997ff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.font-and-heading-div {
+    bottom: 8%;
+    position: absolute;
+    padding: 0;
+
+}
+.iphone-heading-two-fourth .inside-div-logo {
+    display: flex;
+    position: absolute;
+    height: 33px;
+    vertical-align: baseline;
+    width: 33px;
+}
+.fourth-heading-two-h {
+    font-weight: lighter;
+    font-size: 19px;
+    margin-top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    color: gray;
+}
+.fifth-div {
+    margin-top: 1%;
+    display: flex;
+   justify-content: space-around;
+   height: 86vh;
+   width: 100%;
+
+}
+.fifth-first-div {
+    position: relative;
+    width: 49%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+.fifth-first-div img{
+    display: block;
+    width: 100%;
+    height: 68%;
+    margin: auto;
+}
+.fifth-sec-div {
+    display: flex;
+    position: relative;
+    width: 49%;
+    justify-content: center;
+}
+.fifth-sec-div img{
+    position: relative;
+    display: block;
+    mix-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fifth-div-font {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.fifth-div-font .inside-div-logo-fifth {
+    display: block;
+    margin-right: 160px;
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    
+}
+.fifth-div-font-two {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.links-first-fifth {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#2997ff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.a-link {
+    display: flex;
+    justify-content: center;
+}
+.links-div {
+    display: flex;
+    justify-content: center;
+}
+.font-and-heading-div-fifth {
+    top: 0;
+    position: absolute;
+    padding: 0;
+}
+.iphone-heading-two-fifth {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    color: white;
+}
+.fifth-div-font-sec {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 22px;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+footer {
+    height: auto;
+    background-color: rgb(246, 246, 246);
+    display: block;
+    align-items: center;
+}
+.footer-divs {
+    display: flex;
+    width: 70%;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: center;
+   
+
+
+    /* justify-content: space-around; */
+}
+.list-div {
+    display: flex;
+    flex-direction: column;    
+    width: 200px;
+
+}
+.list-div li{
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+
+}
+.list-div li a, .list-div li p{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(47, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-div li a:hover {
+    text-decoration: underline;
+}
+#bold-text{
+    font-weight: bold;
+}
+.footer-bottom {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1a73e8;
+}
+.footer-bottom a{
+    color: #1a73e8 ;
+    text-decoration: underline;
+}
+.most-last-div {
+    margin-top: 20px;
+    height: 90px;
+}
+.most-last-div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(142, 140, 140);
+    padding-bottom: 15px;
+}
+.hr-last {
+    width: 70%;
+    margin: auto;
+}
+.usa {
+    float: right;
+}
+.copyright {
+    margin-left: 30px;
+}
+.copyright a, .usa a {
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+}
+.copyright a:hover, .usa a:hover {
+    text-decoration: underline;
+    color: rgb(56, 55, 55);
+}
+.footer-text {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: grey;
+    
+}
+.footer-text p{
+    padding-bottom: 17px;
+}
+.footer-text a {
+    color: rgb(82, 81, 81);
+}
+
+.sixth-div {
+    margin-top: 1%;
+    display: flex;
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   height: 86vh;
+   width: 100%;
+
+}
+.sixth-first-div {
+    position: relative;
+    width: 49%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+}
+.inside-div-logo-sixth {
+    display: block;
+    margin-right: 120px;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    
+}
+.inside-div-logo-seven{
+        display: block;
+        margin-right: 190px;
+        position: absolute;
+        height: 35px;
+        width: 35px;
+}
+.last-div-fisrt-img {
+    margin-top: 30px;
+    mix-blend-mode: multiply;
+}
